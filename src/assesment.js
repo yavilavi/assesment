@@ -9,19 +9,7 @@ Dado un array de enteros, calcular el puntaje total basado en lo siguiente:
 
 
 const assesment = (numeros) => {
-  let response = 0
-  numeros.forEach(n => {
-    if (n % 2 === 0) response++;
-    else {
-      if (n !== 5) {
-        response += 3;
-      } else {
-        response += 5;
-      }
-    }
-
-  })
-  return response;
+  // logica aquí
 }
 
 module.exports = assesment;
